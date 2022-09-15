@@ -15,7 +15,7 @@ const posts = [
 export default function Posts() {
   return (
     <Layout>
-      <div class="mt-5">
+      <div>
         <ul>
           {posts.map((post) => {
             return (
