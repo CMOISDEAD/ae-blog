@@ -8,6 +8,6 @@ const props = {
   audio: "cotidiana",
 };
 
-export default function() {
+export default function Cuna() {
   return <Layout {...props} />;
 }

@@ -22,7 +22,7 @@ export default function Card({ title, links }) {
             </Dialog.Description>
             <div className="overflow-y-scroll max-h-[50vh]">
               <div className="text-white">
-                {links.map(({ name, description, link, i }) => (
+                {links.map(({ name, description, link }, i) => (
                   <Link href={link}>
                     <div
                       className="bg-[#161616] mr-2 p-5 rounded-md my-2 cursor-pointer hover:bg-[#262626]"
