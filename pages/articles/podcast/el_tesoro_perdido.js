@@ -8,6 +8,6 @@ const props = {
   audio: "el_tesoro_perdido",
 };
 
-export default function() {
+export default function Podcast() {
   return <Layout {...props} />;
 }

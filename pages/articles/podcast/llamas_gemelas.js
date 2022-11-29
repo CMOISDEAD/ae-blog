@@ -7,6 +7,6 @@ const props = {
   audio: "llamas_gemelas",
 };
 
-export default function() {
+export default function Podcast() {
   return <Layout {...props} />;
 }

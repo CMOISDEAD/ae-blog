@@ -8,6 +8,6 @@ const props = {
   audio: "funeral_de_la_vieja_estacion",
 };
 
-export default function() {
+export default function Podcast() {
   return <Layout {...props} />;
 }

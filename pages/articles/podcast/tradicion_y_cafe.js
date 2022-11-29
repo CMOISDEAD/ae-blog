@@ -8,6 +8,6 @@ const props = {
   audio: "tradicion_y_cafe",
 };
 
-export default function() {
+export default function Podcast() {
   return <Layout {...props} />;
 }
