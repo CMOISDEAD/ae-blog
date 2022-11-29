@@ -1,0 +1,13 @@
+import Layout from "./layout";
+
+const props = {
+  title: "Cuña testimonial",
+  description:
+    "En el apartado de cuña testimonial, se introduce un poco sobre la situación y luego se presenta el testimonio del habitante del sector donde existe una problemática donde se afecta el medio ambiente.",
+  image: "testimonial",
+  audio: "testimonial",
+};
+
+export default function() {
+  return <Layout {...props} />;
+}

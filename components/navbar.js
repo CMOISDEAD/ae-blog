@@ -1,22 +1,40 @@
 import Link from "next/link";
 
 export default function Navbar() {
-  return (
-    <div className="sticky z-10 top-0 flex justify-between content-center align-center p-3 bg-white">
-      <p className="font-bold uppercase">
-        <Link href="/">Blog.</Link>
-      </p>
-      <div className="nav">
-        <div className="inline-block px-5 text-gray-700 hover:text-gray-500">
-          <Link href="/post/">Docs</Link>
-        </div>
-        <div className="inline-block px-5 text-gray-700 hover:text-gray-500">
-          <Link href="/podcast">Podcast</Link>
-        </div>
-        <div className="inline-block pl-5 text-gray-700 hover:text-gray-500">
-          <Link href="/Contact">Contact</Link>
-        </div>
-      </div>
-    </div>
-  );
+	const navLinks = [
+		{
+			name: "Cunas",
+			route: "/cunas",
+		},
+		{
+			name: "Entrevistas",
+			route: "/entrevistas",
+		},
+		{
+			name: "Radio Revista",
+			route: "/radio-revista",
+		},
+		{
+			name: "Podcasts",
+			route: "/podcast",
+		},
+		{
+			name: "Historia con efectos de sonido",
+			route: "/hceds",
+		},
+	];
+
+	return (
+		<div>
+			<div className="flex flex-col justify-center content-center align-center text-center my-4 text-white">
+				<p className="font-normal uppercase font-special text-8xl">
+					<Link href="/">(!Bio+sfera)</Link>
+				</p>
+				<p className="text-sm">
+					<span className="italic">Cuidar o Morir</span>
+					{/* 🪴<span className=""> Cuidar o morir </span>🪴 */}
+				</p>
+			</div>
+		</div>
+	);
 }

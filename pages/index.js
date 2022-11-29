@@ -1,19 +1,16 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import Header from "../components/header";
-import Latest from "../components/latest";
+import Content from "../components/content";
 
 export default function Home() {
-  return (
-    <Layout>
-      <Head>
-        <title>Blog</title>
-        <meta name="description" content="Main blog page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Header />
-      <Latest />
-    </Layout>
-  );
+	return (
+		<Layout>
+			<Head>
+				<title>Biosfera.</title>
+				<meta name="description" content="Cuida o muere." />
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+			<Content />
+		</Layout>
+	);
 }

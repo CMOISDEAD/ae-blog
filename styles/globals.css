@@ -9,6 +9,18 @@ body {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background: url(https://papers.co/wallpaper/papers.co-na26-nature-mountain-green-blue-23-wallpaper.jpg) */
+  /*   center fixed; */
+  background-color: black;
+  background-size: cover;
+}
+
+#main-box {
+  margin: 1vh 1vw;
+  background: url("https://images.alphacoders.com/123/1239583.jpg") no-repeat
+    fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
@@ -20,12 +32,94 @@ a {
   box-sizing: border-box;
 }
 
-/* @media (prefers-color-scheme: dark) { */
-/*   html { */
-/*     color-scheme: dark; */
-/*   } */
-/*   body { */
-/*     color: white; */
-/*     background: black; */
-/*   } */
-/* } */
+.font-special {
+  font-family: "book-end";
+}
+
+@font-face {
+  font-family: "book-end";
+  src: url("../public/Book+Ends.ttf");
+}
+
+/* reset */
+.DialogOverlay {
+  background-color: #000000af;
+  position: fixed;
+  inset: 0;
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.DialogContent {
+  background-color: #060606;
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+    hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  max-width: 70vw;
+  max-height: 70vh;
+  padding: 25px;
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.DialogContent:focus {
+  outline: none;
+}
+
+.DialogTitle {
+  margin: 0;
+  font-weight: 500;
+  color: white;
+  font-size: 17px;
+}
+
+.DialogDescription {
+  margin: 10px 0 20px;
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.IconButton {
+  font-family: inherit;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.IconButton:hover {
+  background-color: gray;
+}
+
+.IconButton:focus {
+  box-shadow: 0 0 0 2px gray;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
