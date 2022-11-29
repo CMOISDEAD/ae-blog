@@ -8,6 +8,6 @@ const props = {
   audio: "indagatoria",
 };
 
-export default function() {
+export default function Entrevista() {
   return <Layout {...props} />;
 }

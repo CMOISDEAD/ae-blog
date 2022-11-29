@@ -8,6 +8,6 @@ const props = {
   audio: "inesperado",
 };
 
-export default function() {
+export default function Hcfs() {
   return <Layout {...props} />;
 }

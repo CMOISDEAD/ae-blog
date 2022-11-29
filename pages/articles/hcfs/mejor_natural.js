@@ -7,6 +7,6 @@ const props = {
   audio: "mejor_natural",
 };
 
-export default function() {
+export default function Hcfs() {
   return <Layout {...props} />;
 }

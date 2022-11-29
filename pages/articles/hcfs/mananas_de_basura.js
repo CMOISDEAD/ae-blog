@@ -8,6 +8,6 @@ const props = {
   audio: "mananas_de_basura",
 };
 
-export default function() {
+export default function Hcfs() {
   return <Layout {...props} />;
 }
