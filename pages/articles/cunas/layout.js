@@ -14,7 +14,7 @@ export default function LayoutCuna({ title, description, image, audio }) {
         <img
           src={`/images/cunas/${image}.jpg`}
           alt={image}
-          className="object-contain rounded-sm"
+          className="object-contain rounded-sm w-6/12"
         />
       </div>
     </Layout>

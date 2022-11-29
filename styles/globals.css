@@ -9,9 +9,9 @@ body {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* background: url(https://papers.co/wallpaper/papers.co-na26-nature-mountain-green-blue-23-wallpaper.jpg) */
-  /*   center fixed; */
-  background-color: black;
+  background: url("https://www.todofondos.net/wp-content/uploads/3840x2400-VC16-Papel-Arrugado-Textura-Oscura-36-3840x2400-Fondo-de-Pantalla-4k-scaled.jpg")
+    center fixed;
+  /* background-color: black; */
   background-size: cover;
 }
 

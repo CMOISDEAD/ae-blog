@@ -7,8 +7,8 @@ export default function Card({ title, links }) {
     <>
       <Dialog.Root>
         <Dialog.Trigger asChild>
-          <div className="h-full w-full flex text-white text-center justify-center content-center items-center backdrop-blur-sm backdrop-grayscale hover:backdrop-blur-0 hover:backdrop-grayscale-0 transition-all duration-300 ease-out cursor-pointer ounded-md">
-            <h3 className="text-3xl font-bold font-serif uppercase text-white">
+          <div className="h-full w-full flex text-[#f1c40f] text-center justify-center content-center items-center backdrop-blur-sm backdrop-grayscale hover:backdrop-blur-0 hover:backdrop-grayscale-0 transition-all duration-300 ease-out cursor-pointer ounded-md">
+            <h3 className="text-3xl font-bold captalize text-[#f1c40f]">
               {title}
             </h3>
           </div>
@@ -21,7 +21,7 @@ export default function Card({ title, links }) {
               Selecciona el elemento de tu interes.
             </Dialog.Description>
             <div className="overflow-y-scroll max-h-[50vh]">
-              <div className="text-white">
+              <div className="text-[#f1c40f]">
                 {links.map(({ name, description, link }, i) => (
                   <Link href={link} key={i}>
                     <div

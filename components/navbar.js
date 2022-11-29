@@ -32,7 +32,6 @@ export default function Navbar() {
 				</p>
 				<p className="text-sm">
 					<span className="italic">Cuidar o Morir</span>
-					{/* 🪴<span className=""> Cuidar o morir </span>🪴 */}
 				</p>
 			</div>
 		</div>

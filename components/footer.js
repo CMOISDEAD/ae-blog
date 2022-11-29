@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
-		<div className="text-center backdrop-blur-md">
-			<div className="text-sm text-green-500">Copyright © 2022 Biosfera.</div>
+		<div className="text-center">
+			<div className="text-sm text-[#f1c40f]">Copyright © 2022 Biosfera.</div>
 		</div>
 	);
 };
