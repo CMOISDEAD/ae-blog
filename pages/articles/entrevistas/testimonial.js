@@ -5,6 +5,7 @@ const props = {
   description: "",
   image: "testimonial",
   audio: "testimonial",
+  name: "Erika Gabriela",
 };
 
 export default function Entrevista() {

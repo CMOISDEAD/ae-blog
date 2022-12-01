@@ -105,7 +105,8 @@ export const entrevista_links = [
 	},
 	{
 		name: "testimonial",
-		description: "",
+		description:
+			"En esta entrevista tenemos al ambientalista Nestor Ocampo, líder de la fundación Cosmos que dará una contextualización de lo que está pasando en los entornos naturales del Quindío con relación a la llegada de empresas extranjeras.",
 		link: "/articles/entrevistas/testimonial",
 	},
 	{
@@ -136,7 +137,8 @@ export const podcast_links = [
 	},
 	{
 		name: "Llamas gemelas",
-		description: "",
+		description:
+			"El pódcast trata sobre las gemelas Muriel, Mónica y Vanessa como personajes emblemáticos de la ciudad  . Desde muy pequeñas han desarrollado la habilidad del arte de la pintura, por medio del muralismo, han representado  el Paisaje Cultural Cafetero y  personajes representativos. De esta manera, embellecen las calles de los municipios del departamento del Quindío, dando como ejemplo la labor que han realizado en el municipio de Calarcá, adquiriendo reconocimiento en la sociedad.",
 		link: "/articles/podcast/llamas_gemelas",
 	},
 	{
@@ -146,18 +148,36 @@ export const podcast_links = [
 		link: "/articles/podcast/tradicion_y_cafe",
 	},
 ];
-export const radio_links = [
+export const piloto_links = [
 	{
-		name: "radio 1",
-		link: "/cuna-1",
+		name: "Charla Creativa",
+		description:
+			"En esta charla se abordará la importancia de cuidar el medio ambiente, las acciones que debemos realizar para proteger y disminuir los efectos nocivos, para así conservarlo y disfrutar de un ambiente sano.",
+		link: "/articles/piloto/charla_creativa",
 	},
 	{
-		name: "radio 2",
-		link: "/cuna-1",
+		name: "Charla Expositiva",
+		description:
+			"La charla trata de hacer una pedagogía acerca de que es deforestación, porque se genera, cuáles son las precauciones que se deben tener en cuenta y cómo daña a los ecosistemas.",
+		link: "/articles/piloto/charla_expositiva",
 	},
 	{
-		name: "radio 3",
-		link: "/cuna-1",
+		name: "Charla Testimonial",
+		description:
+			"En el microformato se abordarán temas relacionados con la contaminación en el ámbito rural y las maneras de las que se están desarrollando diferentes formas de gestionar sobre la problemática.",
+		link: "/articles/piloto/charla_testimonial",
+	},
+	{
+		name: "Comentario Radial",
+		description:
+			"En el microformato se abordarán temas relacionados con la contaminación en las ciudades y en el campo, con una mirada educativa, fomentando buenos pilares en el colegio con el fin de mitigar la problemática a futuro.",
+		link: "/articles/piloto/comentario_radial",
+	},
+	{
+		name: "Dialogo Dramatizado",
+		description:
+			"En el microformato se abordará un tema de preocupación global, se hablará de la contaminación masiva que experimenta el planeta y que esto paulatinamente acabará por terminar con nuestro fin, el fin de la raza humana.",
+		link: "/articles/piloto/dialogo_dramatizado",
 	},
 ];
 export const historia_links = [

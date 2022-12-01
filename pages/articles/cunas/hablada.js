@@ -6,6 +6,7 @@ const props = {
     "Esta cuña nos cuenta sobre la importancia de cuidar el medio ambiente, también de algunos pasos a seguir para la conservación y sostenibilidad del mismo y, además, hace referencia a la regla de las 3R. ",
   image: "hablada",
   audio: "hablada",
+  name: "Jessica Martinez",
 };
 
 export default function Cuna() {

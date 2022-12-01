@@ -5,6 +5,7 @@ const props = {
   description: "",
   image: "mejor_natural",
   audio: "mejor_natural",
+  name: "Richard Daniel Aguagallo",
 };
 
 export default function Hcfs() {

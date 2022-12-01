@@ -6,6 +6,7 @@ const props = {
     "En el apartado de cuña testimonial, se introduce un poco sobre la situación y luego se presenta el testimonio del habitante del sector donde existe una problemática donde se afecta el medio ambiente.",
   image: "testimonial",
   audio: "testimonial",
+  name: "Jeison Cano",
 };
 
 export default function Cuna() {

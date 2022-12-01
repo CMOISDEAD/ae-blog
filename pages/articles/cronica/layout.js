@@ -2,7 +2,13 @@ import Layout from "../../../components/layout";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 
-export default function LayoutCronica({ title, description, image, audio }) {
+export default function LayoutCronica({
+  title,
+  description,
+  image,
+  audio,
+  name,
+}) {
   return (
     <Layout>
       <h1 className="text-3xl text-center capitalize text-white">{title}</h1>
@@ -16,6 +22,7 @@ export default function LayoutCronica({ title, description, image, audio }) {
           alt={image}
           className="object-contain rounded-sm"
         />
+        <p className="text-center italic">{name}</p>
       </div>
     </Layout>
   );

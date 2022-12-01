@@ -6,6 +6,7 @@ const props = {
     "Esta trivia descriptiva habla sobre la contaminación que generan las ciudades al aire y los daños que contrae a la salud. ",
   image: "trivia",
   audio: "trivia",
+  name: "Maria Angeles",
 };
 
 export default function Cuna() {
