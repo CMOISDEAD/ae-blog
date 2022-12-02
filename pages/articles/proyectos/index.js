@@ -20,7 +20,7 @@ export default function Radio() {
             Aspectos Legales de Radio
           </Tabs.Trigger>
           <Tabs.Trigger className="TabsTrigger" value="tab3">
-            Como ser buen locutor ?
+            ¿como ser un buen locutor?
           </Tabs.Trigger>
         </Tabs.List>
         <Tabs.Content className="TabsContent" value="tab1">

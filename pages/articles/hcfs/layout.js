@@ -6,6 +6,7 @@ export default function LayoutHcfs({
   title,
   description,
   image,
+  footer,
   audio,
   video,
   name,
@@ -13,6 +14,7 @@ export default function LayoutHcfs({
   return (
     <Layout>
       <h1 className="text-3xl text-center capitalize text-white">{title}</h1>
+      <p className="text-white text-sm italic text-center">{name}</p>
       {video ? (
         <div className="flex justify-center">
           <video src={`/videos/${video}.mp4`} controls />
@@ -24,12 +26,13 @@ export default function LayoutHcfs({
       {/*   <AudioPlayer src={`/audios/hcfs/${audio}.mp3`} /> */}
       {/* </div> */}
       <div className="sipnosis text-white">{description}</div>
-      <div class="image flex flex-col justify-center content-center items-center my-3">
+      <div className="image flex flex-col justify-center content-center items-center my-3">
         <img
           src={`/images/hcfs/${image}.jpg`}
           alt={image}
           className="object-contain rounded-sm"
         />
+        <p className="text-center italic text-white">{footer}</p>
         <p className="text-center italic text-white">Foto tomada por: {name}</p>
       </div>
     </Layout>

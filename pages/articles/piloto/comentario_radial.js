@@ -5,6 +5,7 @@ const props = {
   description:
     "En el microformato se abordarán temas relacionados con la contaminación en las ciudades y en el campo, con una mirada educativa, fomentando buenos pilares en el colegio con el fin de mitigar la problemática a futuro.",
   image: "radial",
+  footer: "Jeison",
   audio: "radial",
   name: "Jeison Cano",
 };

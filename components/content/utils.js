@@ -2,7 +2,7 @@ export const cunas_links = [
 	{
 		name: "cuña anti promocional",
 		description:
-			"Esta cuña intenta concientizar sobre los discursos engañosos que se propagan cada vez más en los diversos territorios que son ricos en minerales para la extracción de estos. Teniendo en cuenta que existen casos donde han salido victoriosas las multinacionales.",
+			"Esta cuña intenta concretizan sobre los discursos engañosos que se propagan cada vez más en los diversos territorios que son ricos en minerales para la extracción de estos. Teniendo en cuenta que existen casos donde han salido victoriosas las multinacionales.",
 		link: "/articles/cunas/anti_promocional",
 	},
 	{
@@ -26,7 +26,7 @@ export const cunas_links = [
 	{
 		name: "cuña humorística",
 		description:
-			"Esta cuña  busca entretenernos mediante un humor negro sobre la problematica que se vive hoy por hoy y donde, prima el sarcasmo ante cualquier situacion, creando asi un efecto contraproducente a los escuchas.",
+			"Esta cuña  busca entretenernos mediante un humor negro sobre la problemática que se vive hoy por hoy y donde, prima el sarcasmo ante cualquier situación, creando así un efecto contraproducente a los escuchas.",
 		link: "/articles/cunas/humoristica",
 	},
 	{
@@ -60,13 +60,13 @@ export const cunas_links = [
 		link: "/articles/cunas/gremial",
 	},
 	{
-		name: "cuña historica",
+		name: "cuña histórica",
 		description:
 			"Esta cuña nos cuenta sobre la marcha pacífica y sin ánimo de lucro en contra de la megaminería en Salento Quindío,en la cual se desarrollaron diferentes actividades a lo largo de la marcha en pro a la conservación del agua y a la vida.",
 		link: "/articles/cunas/historica",
 	},
 	{
-		name: "cuña pildora",
+		name: "cuña píldora",
 		description:
 			"La cuña píldora data de una sección que informa basadas en unas estadísticas de algunas de las consecuencias que viene presentando la problemática en el medio ambiente y  la vida humana.",
 		link: "/articles/cunas/pildora",
@@ -98,7 +98,7 @@ export const entrevista_links = [
 		link: "/articles/entrevistas/informativa",
 	},
 	{
-		name: "opinion",
+		name: "opinión",
 		description:
 			"En la entrevista tendremos la compañía de la señora Nancy Liyani González Vélez, quien nos dará su opinión acerca de la contaminación urbana en la ciudad y diferentes tipos de preguntas relacionadas con el tema.",
 		link: "/articles/entrevistas/opinion",
@@ -118,7 +118,7 @@ export const entrevista_links = [
 ];
 export const podcast_links = [
 	{
-		name: "El poeta del Quindio",
+		name: "El poeta del Quindío",
 		description:
 			"Baudilio Montoya fue un poeta reconocido en el Quindío; sin embargo, no nació en el tal departamento, fue un gran representante de este territorio, convirtiéndose hasta la actualidad en un emblema. Era un poeta que resaltaba en sus versos la belleza de la naturaleza y la particularidad de la gente del departamento; el campesino fue uno de los pilares para la creación de sus versos. Además, aunque no es originario del Quindío, fue muy querido en el departamento, siendo homenajeado después de su muerte de muchas maneras.",
 		link: "/articles/podcast/el_poeta_del_quindio",
@@ -130,9 +130,9 @@ export const podcast_links = [
 		link: "/articles/podcast/el_tesoro_perdido",
 	},
 	{
-		name: "Funeral de la vieja estacion",
+		name: "Funeral de la vieja estación",
 		description:
-			"Este pódcast habla del olvido en que se ha convertido la vieja estación del tren de Armenia. De sus compañías actuales y las que tuvo alguna vez. Sus creadores y los grandes sueños que en un pasado albergó. La imponencia y el logro cuyabro que sus paredes transmitian en un pasado y que pocos recuerdan en una ciudad urbana que no da marcha atrás para cuidar historias que nos ayudaron a encontrar el hoy. ",
+			"Este pódcast habla del olvido en que se ha convertido la vieja estación del tren de Armenia. De sus compañías actuales y las que tuvo alguna vez. Sus creadores y los grandes sueños que en un pasado albergó. La imponencia y el logro cuyabro que sus paredes transmitían en un pasado y que pocos recuerdan en una ciudad urbana que no da marcha atrás para cuidar historias que nos ayudaron a encontrar el hoy. ",
 		link: "/articles/podcast/funeral_de_la_vieja_estacion",
 	},
 	{
@@ -142,7 +142,7 @@ export const podcast_links = [
 		link: "/articles/podcast/llamas_gemelas",
 	},
 	{
-		name: "Tradicion y cafe",
+		name: "Tradición y café",
 		description:
 			"RECUCA conocido como; Recorrido de la Cultura Cafetera, donde los visitante, entran en contacto con experiencias y tradiciones cafeteras, asumiendo el papel del caficultor y arriero de la época y quieren cumplieron un rol fundamental en la época realizando el proceso de la semilla a la taza. ",
 		link: "/articles/podcast/tradicion_y_cafe",
@@ -205,7 +205,7 @@ export const historia_links = [
 		link: "/articles/hcfs/mejor_natural",
 	},
 	{
-		name: "Quien no ama el paramo no ama la vida",
+		name: "Quien no ama el páramo no ama la vida",
 		description:
 			"La historia se trata de una joven llamada Sofía que un día junto a sus amigos deciden salir a vivir una nueva aventura y es visitar el páramo y la laguna, lo que ellos no se esperaban era que unas personas malintencionadas provocaron un incendio en dicho lugar, dejando graves consecuencias medioambientales, pero que gracias a la ayuda de bomberos y comunidad en general lograron apagar el fuego.",
 		link: "/articles/hcfs/paramo",

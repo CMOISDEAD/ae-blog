@@ -1,7 +1,7 @@
 const autores = [
   {
     image: "/jeison",
-    name: "Jeison Andres Cano ",
+    name: "Jeison Andrés Cano ",
   },
   {
     image: "/gabriela",
@@ -9,11 +9,11 @@ const autores = [
   },
   {
     image: "/jessica",
-    name: "Jessica Martinez",
+    name: "Jessica Martínez",
   },
   {
     image: "/maria",
-    name: "Maria Angeles Vargas",
+    name: "Maria Ángeles Vargas",
   },
 ];
 
@@ -28,7 +28,7 @@ export default function About() {
               <img
                 src={`${image}.jpg`}
                 alt=""
-                className="rounded-md h-[30vh] w-[20vw] object-cover object-center"
+                className="h-[30vh] w-[20vw] object-cover object-center"
               />
             </div>
             <div className="info text-sm italic text-center">

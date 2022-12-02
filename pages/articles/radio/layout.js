@@ -5,7 +5,8 @@ import "react-h5-audio-player/lib/styles.css";
 export default function LayoutRadio({
   title,
   description,
-  image,
+  collage,
+  footer,
   audio,
   name,
 }) {
@@ -16,14 +17,27 @@ export default function LayoutRadio({
         <AudioPlayer src={`/audios/radio/${audio}.mp3`} />
       </div>
       <div className="sipnosis text-white">{description}</div>
-      {/* <div class="image flex flex-col justify-center content-center items-center my-3"> */}
-      {/*   <img */}
-      {/*     src={`/images/radio/${image}.jpg`} */}
-      {/*     alt={image} */}
-      {/*     className="object-contain rounded-sm" */}
-      {/*   /> */}
-      {/*   <p className="text-center italic text-white">Foto tomada por: {name}</p> */}
-      {/* </div> */}
+      <div className="overflow-hidden text-gray-700">
+        <div className="container px-5 py-2 mx-auto lg:pt-12 lg:px-32">
+          <div className="flex flex-wrap -m-1 md:-m-2">
+            {collage.map((img, i) => (
+              <div key={i} className="flex flex-wrap w-1/3">
+                <div className="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    className="block object-cover object-center w-full h-full rounded-lg"
+                    src={`/images/radio/${img}.jpg`}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-center italic text-white">{footer}</p>
+          <p className="text-center italic text-white">
+            Foto tomada por: {name}
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 }

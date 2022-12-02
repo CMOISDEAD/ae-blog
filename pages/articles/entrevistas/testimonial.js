@@ -4,6 +4,7 @@ const props = {
   title: "testimonial",
   description: "",
   image: "testimonial",
+  footer: "Néstor Ocampo",
   audio: "testimonial",
   name: "Erika Gabriela",
 };

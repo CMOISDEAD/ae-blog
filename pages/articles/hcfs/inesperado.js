@@ -5,6 +5,7 @@ const props = {
   description:
     "La historia con efectos de sonidos trata sobre Ariché, un adolescente campesino de 16 años que vive con su familia en una finca en la zona rural de Caquetá. Su vida cotidiana es realizar labores, disfrutar del campo y oír los sonidos de la flora y fauna en compañía de su familia, hasta que, un acontecimiento que desconocían aparece inesperadamente provocando que les cambie la vida. ",
   image: "inesperado",
+  footer: "Familia Campesina",
   audio: "inesperado",
   name: "Jessica Martinez",
 };

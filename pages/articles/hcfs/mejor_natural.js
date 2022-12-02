@@ -4,6 +4,7 @@ const props = {
   title: "Mejor natural",
   description: "",
   image: "mejor_natural",
+  footer: "Casa en el campo",
   audio: "mejor_natural",
   name: "Richard Daniel Aguagallo",
 };

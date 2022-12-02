@@ -47,7 +47,7 @@ export const Content = () => {
 					</Link>
 				</div>
 				<div className="h-[23vh] bg-[url('https://cnr.ncsu.edu/news/wp-content/uploads/sites/10/2020/09/fire.stock_.featured.p1.jpg')] bg-cover bg-center ounded-md">
-					<Card title="HCES" links={historia_links} />
+					<Card title="Historias con efecto de sonido" links={historia_links} />
 				</div>
 				<div className="h-[23vh] bg-[url('https://www.greenpeace.org/static/planet4-argentina-stateless/2022/05/75d146b2-gp0stur30-1024x641.jpg')] bg-cover bg-center ounded-md">
 					<Card title="Programa Piloto" links={piloto_links} />
@@ -56,7 +56,7 @@ export const Content = () => {
 					<Link href="/articles/radio">
 						<div className="h-full w-full flex text-[#f1c40f] text-center justify-center content-center items-center backdrop-blur-sm backdrop-grayscale hover:backdrop-blur-0 hover:backdrop-grayscale-0 transition-all duration-300 ease-out cursor-pointer ounded-md">
 							<h3 className="text-3xl font-bold capitalize text-[#f1c40f]">
-								Noticiero Radiofonico
+								Noticiero Radiofónico
 							</h3>
 						</div>
 					</Link>

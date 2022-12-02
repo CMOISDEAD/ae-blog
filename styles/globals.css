@@ -155,7 +155,7 @@ input {
   justify-content: center;
   font-size: 15px;
   line-height: 1;
-  color: var(--mauve11);
+  color: white;
   user-select: none;
 }
 .TabsTrigger:first-child {
@@ -190,7 +190,7 @@ input {
 .Text {
   margin-top: 0;
   margin-bottom: 20px;
-  color: var(--mauve11);
+  color: white;
   font-size: 15px;
   line-height: 1.5;
 }

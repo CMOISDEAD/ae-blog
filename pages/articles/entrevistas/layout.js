@@ -6,6 +6,7 @@ export default function LayoutEntrevista({
   title,
   description,
   image,
+  footer,
   collage,
   audio,
   name,
@@ -13,6 +14,7 @@ export default function LayoutEntrevista({
   return (
     <Layout>
       <h1 className="text-3xl text-center capitalize text-white">{title}</h1>
+      <p className="text-white text-sm italic text-center">{name}</p>
       <div className="flex items-center justify-center content-center my-3">
         <AudioPlayer src={`/audios/entrevistas/${audio}.mp3`} />
       </div>
@@ -26,16 +28,17 @@ export default function LayoutEntrevista({
                   <div className="w-full p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src={`/images/entrevistas/${img}.jpg`}
                     />
                   </div>
                 </div>
               ))}
-              <p className="text-center italic text-white">
-                Foto tomada por: {name}
-              </p>
             </div>
+            <p className="text-center italic text-white">{footer}</p>
+            <p className="text-center italic text-white">
+              Foto tomada por: {name}
+            </p>
           </div>
         </div>
       ) : (
